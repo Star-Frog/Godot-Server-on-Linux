@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SilencerCo.obj-7846a6740fc2e60d0dbe4ffa95b1d39f.mesh"
+
+[deps]
+
+files=[ "res://.import/SilencerCo.obj-7846a6740fc2e60d0dbe4ffa95b1d39f.mesh" ]
+
+source_file="res://SilencerCo.obj"
+dest_files=[ "res://.import/SilencerCo.obj-7846a6740fc2e60d0dbe4ffa95b1d39f.mesh", "res://.import/SilencerCo.obj-7846a6740fc2e60d0dbe4ffa95b1d39f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

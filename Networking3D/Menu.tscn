@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Menu.gd" type="Script" id=1]
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextField" type="LineEdit" parent="."]
+margin_left = 203.0
+margin_top = 163.0
+margin_right = 789.0
+margin_bottom = 265.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="JoinButton" type="Button" parent="."]
+margin_left = 133.0
+margin_top = 373.0
+margin_right = 431.0
+margin_bottom = 472.0
+text = "JOIN"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreateButton" type="Button" parent="."]
+margin_left = 582.0
+margin_top = 370.0
+margin_right = 885.0
+margin_bottom = 469.0
+text = "CREATE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_changed" from="TextField" to="." method="_on_TextField_text_changed"]
+[connection signal="pressed" from="JoinButton" to="." method="_on_JoinButton_pressed"]
+[connection signal="pressed" from="CreateButton" to="." method="_on_CreateButton_pressed"]
